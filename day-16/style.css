@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    color:#474c45;
+    background-color: #dfe4de;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+h2{
+text-transform: uppercase;
+margin-bottom: 40px;
+letter-spacing: 2px;
+text-align: center;
+}
+
+p{
+line-height: 1.7;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+
+.header{
+    background-image: linear-gradient(rgb(0 0 0 / 25%),rgb(0 0 0 / 40%)),url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    color: #fff;
+    margin:0 auto;
+    display: block;
+    width: 200px;
+    font-size: 30px;
+}
+.navbar{
+    display: none;
+}
+
+.title{
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.gallery{
+    margin-bottom: 0;
+}
+
+.gallery-box{
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 3px 3px 6px 5px #9e9e9e;
+    background-color: #fff;
+    height: 70vh;
+    margin-bottom: 40px;
+}
+
+.gallery-text{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.gallery-text p{
+    text-align: center;
+}
+
+.overview-text {
+    background-color: #fff;
+    padding-top: 50px;
+} 
+
+.location{
+    background-color: #dfe4de;
+}
+
+.line{
+    border-bottom: 4px solid #474c45;
+    margin:0 auto;
+    width: 70px;
+    transform: translateY(-25px);
+}
+
+.footer{
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.footer+div{
+    margin-bottom: 0;
+}
+
+.footer-nav nav ul{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer-nav nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer-nav nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #474c45;
+    font-weight: 700;
+}
+
+
+
+@media screen and (min-width:1024px) {
+
+    div{
+        margin-bottom: 0;
+    }
+    .logo{
+        margin-left: 10px;
+        padding: 20px;
+    }
+    .navbar{
+        display: block;
+        position: absolute;
+        right: 100px;
+        top: 30px;
+    }
+
+    .navbar nav ul li{
+        list-style: none;
+        display: inline;
+        padding-left: 10px;
+    }
+
+    .navbar nav ul li a{
+        text-decoration: none;
+        color:#fff;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        transition: 0.4s;
+    }
+
+    .title{
+        margin-top: 200px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .title h1{
+        font-size: 40px;
+    }
+
+    .title p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .gallery{
+        margin-bottom: 120px;
+    }
+
+    .gallery-text{
+        margin-top: 50px;
+    }
+
+    .gallery-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-content{
+        flex-basis: 25%;
+    }
+    
+    .overview-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .overview-content{
+        width: calc(100%/2);
+        margin-bottom: 0;
+    }
+
+    .text-background{
+        background-color: #fff;
+    }
+
+    .overview-text {
+        padding-top: 100px;
+        padding-left: 70px;
+        padding-right: 70px;
+        
+    }
+
+    .overview-text p{
+        text-align: left;
+    }
+
+    .location-text p{
+        margin-left: 100px;
+        margin-right: 100px;
+        line-height: 1.8;
+        text-align: center;
+    }
+
+}
+
+
