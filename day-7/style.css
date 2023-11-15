@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+h2{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #141414;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.navbar{
+    visibility: hidden;
+}
+
+.header{
+    background-image:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 70%)) ,url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    margin: 0 auto;
+    color: #f5c73e;
+    font-size: 30px;
+    font-weight: 600;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    color: #f5c73e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.overview p{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.overview-img{
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.location{
+    background-color: #f9f9f9;
+}
+
+.content-background{
+    background-color: #f5c73e;
+    color:white;
+}
+
+.bathroom-img{
+    margin-bottom: -3px;
+}
+
+.location-text h2{
+    color: white;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.location-text p{
+  padding-left: 2%;
+}
+
+.images{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.images .gallery-list{
+    padding-bottom: 10px;
+}
+
+.heading-box{
+    border: 2px solid #f5c73e;
+    width: 50px;
+    height: 70px;
+    margin-left: 50%;
+    transform: translate(-15px,40px);
+    z-index: 2;
+}
+
+.gallery-name{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .logo{
+       margin-left: 20px;
+    }
+
+    .navbar{
+        visibility: visible;
+        position: absolute;
+        right: 4px;
+        top: 15px;
+    }
+ 
+    .navbar ul{
+        margin-right: 100px;
+    }
+ 
+    .navbar ul li{
+        display:inline;
+        padding-left: 10px;
+    }
+     
+    .navbar ul li a{
+        text-decoration: none;
+        color:white;
+        font-size: 15px;
+        transition: 0.4s;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 5px solid #f5c73e ;
+    }
+
+    .underline{
+        border-bottom: 1px solid white;
+        padding-top: 10px;
+    }
+
+    .title{
+        margin-top: 200px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .title h1{
+        font-size: 35px;
+    } 
+
+    .title p{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 20px;
+    }
+
+    .overview-flex{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    .flex-content{
+        flex-basis: 33%;
+    }
+
+    .overview-img img{
+        margin-left: 10%;
+    }
+
+    .overview p{
+        text-align: left;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .flex-content h2{
+        text-align: left;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .location-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .location-content{
+      width: calc(100%/2);
+    }
+     
+    .location-text{
+        width: 500px;
+    }
+
+    .content-background{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+
+    .location-text h2{
+        text-align: left;
+    }
+
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-list{
+        flex-basis: 25%;
+    }
+
+    .gallery-list img{
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .gallery-name {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .gallery-name span{
+      padding-left: 150px;
+      padding-right: 25px;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    .gallery-name span:hover{
+        color: #f5c73e;
+    }
+
+    .symboles i{
+        color: black;
+    }
+
+}
+
