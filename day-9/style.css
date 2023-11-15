@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+p{
+    line-height: 1.6;
+}
+
+
+body{
+    font-family:'Inter', sans-serif;
+    color: #434343;
+    height: 100vh;
+    background: linear-gradient(to right, white 0%, white 50%,#f9f5f0 50%,#f9f5f0 100% );
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    font-size:30px;
+    color: #607d8b;
+}
+
+.navbar{
+    display: none;
+}
+
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.work-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.work-btn button{
+    padding: 10px 30px;
+    background: none;
+    background-color: #677869;
+    border: none;
+    color: #f5f6f5;
+    font-weight: 600;
+    
+}
+
+.header-img{
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.number{
+    text-align: center;
+    position: relative;
+    margin-bottom: -25px;
+}
+
+.number span {
+    font-size: 50px;
+    color: #677869;
+    font-weight: 600;
+}
+
+.gallery-itom{
+    margin-bottom: 30px;
+}
+
+.gallery-img{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.gallery-img img{
+    height: 50vh;
+    z-index: 2;
+}
+
+.line{
+    border-left: 1px solid black;
+    height: 80px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+
+.text{
+    width: 100px;
+    line-height: 1.4;
+    margin-left: 40px;
+}
+
+.banner-title{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.overview h2{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.overview-img{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 20px;
+}
+
+.overview-text{
+    text-align: justify;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.read-btn{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    
+   .logo{
+       visibility: hidden;
+   }
+   
+    .navbar{
+        display: block;
+        position: absolute;
+        right: 290px;
+        top: 20px;
+    }
+
+    .navbar ul li{
+        display: inline;
+        padding-left: 10px;
+    }
+
+    .navbar ul li span{
+        font-size: 30px;
+        color:  #607d8b;
+    }
+
+    .navbar ul li a{
+        text-decoration: none;
+        color: #86a18a;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        transition: 0.4s;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid #86a18a; 
+    }
+
+    .header-flex{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-content{
+        flex-basis: 40%;
+    }
+
+    .header-img img{
+     position: relative;
+     right: 100px;
+    }
+
+    .content-title{
+       position: relative;
+       right: 80px;
+    }
+
+    .title{
+        width: 300px;
+        margin-left:280px;
+        font-size:25px;
+        text-align: right;
+    }
+
+    .work-btn{
+        margin-left: 400px;
+    }
+
+    .gallery-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gallery-itom{
+        flex-basis: 25%;
+    }
+
+    .overview-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overview-flex-content{
+        flex-basis: 40%;
+    }
+
+    .banner-title{
+        margin-right:250px;
+        margin-left: 250px;
+    }
+
+    .overview-img{
+        margin-left: 15%;
+    }
+
+    .overview-text p{
+        font-size: 20px;
+        text-align: left; 
+        font-weight: 600;
+        text-transform: lowercase;
+    }
+
+    .read-btn{
+        display: block;
+        margin-left:440px ;
+        margin-bottom: 100px;
+    }
+
+    .read-btn button{
+        padding: 10px 30px;
+        background: none;
+        background-color: #677869;
+        border: none;
+        color: #f5f6f5;
+        font-weight: 600;
+    }
+
+}

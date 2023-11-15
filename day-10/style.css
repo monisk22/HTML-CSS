@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    background-color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+p{
+  line-height: 1.6;
+
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.logo span{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    font-size: 30px;
+}
+
+.navbar{
+    display:none;
+}
+
+.underline{
+    border-bottom: 2px solid black;
+}
+
+.title{
+   margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.title-border{
+    border-bottom: 1px solid black;
+    width: 100px;
+   margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description p{
+    text-align: center;
+}
+
+.overview-background{
+    background-color: #2f2f2f; 
+}
+
+.overview-text{
+    color: #fff;
+    margin-top: -5px;
+   
+}
+
+.overview-text p{
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+.overview-text h2{
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+ .gallery-img{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 20px;
+}
+
+.gallery-img img{
+    height: 60vh;
+}
+
+.location-text{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.location-heading{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.background{
+    background-image: linear-gradient(rgb(0 0 0 / 40%),rgb(0 0 0 / 30%)),url(Grid_1-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.backhround-text{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.background-underline{
+    width: 200px;
+    border-bottom: 2px solid white;
+    margin:0 auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.background-btn{
+    text-align: center;
+}
+
+.background-btn button{
+    padding: 10px 30px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.visit{
+    text-align: center;
+}
+
+.visit h2{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.visit-text{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.visit-btn{
+    margin-top: 20px;
+}
+
+.visit-btn button{
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.amenities{
+ background-color: #8889;
+ text-align: center;
+ margin-bottom: 0;
+}
+
+.amenities-list{
+    padding-top: 30px;
+}
+
+.amenities-list ul li{
+    list-style-type:none;
+    padding: 10px;
+}
+
+.project-highlights{
+    margin-top: 30px;
+}
+
+.project-highlights ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.offer{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.offer h2{
+    margin-bottom: 10px;
+}
+
+.ivr{
+    margin-top: 30px;
+    margin-bottom: 10px; 
+}
+
+.ivr h2{
+    margin-bottom: 10px;
+}
+
+.maha-rera{
+    margin-top: 30px;
+    margin-bottom: 10px; 
+}
+
+.maha-rera h2{
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:1024px) {
+  
+    .navbar{
+        display: block;
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 400px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .navbar ul li{
+        list-style-type: none;
+        display: inline;
+        padding-left: 25px;
+    }
+
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .header-img img{
+        height: 100vh;
+    }
+    
+    .title{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .title-border{
+        width: 200px;
+        margin-left: 650px;
+    }
+
+    .description{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .overview-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overview-flex-content{
+        flex-basis: 40%;
+    }
+
+    .overview-text{
+        height: 57vh;
+        margin-top: 0;
+    }
+
+    .gallery-flex{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-img{
+        flex-basis: 35%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .gallery{
+        margin-top: -70px;
+    }
+
+    .header{
+        margin-bottom: 50px;
+    }
+
+    .location-description{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .background{
+        height: 80vh;
+    }
+
+    .background-underline{
+        margin-left: 650px;
+    }
+
+    .visit-text{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .visit-btn ul li{
+        display: inline;
+        padding-left: 20px;
+    }
+
+    .last-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+        margin-left:5%;
+    }
+
+    .last-flex-content{
+        flex-basis: 25%;
+        margin-right: 30px;
+    }
+
+    .project-highlights{
+        margin-top: -174px;
+    }
+
+    .offer-detail{
+        margin-top: -270px;
+    }
+
+   
+
+
+}
