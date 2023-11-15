@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+  margin-bottom: 0;
+}
+
+body{
+ font-family:'Inter', sans-serif;
+}
+
+h2{
+    margin-bottom:40px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    background-image: linear-gradient(rgb(0 0 0 / 30%),rgb(0 0 0 / 50%)),url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+   display: none;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+
+.title{
+    color: white;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+
+.title h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title p{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.main{
+    background-color: #262626;
+    color: #fafafa;
+}
+
+.overview,.location{
+    padding-top: 50px;
+}
+
+.overview-img,.location-img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.overview-text,.location-text{
+    text-align: justify;
+    padding: 20px;
+}
+
+.location{
+    padding-bottom:50px;
+}
+
+.footer{
+    background-color: #ffffff;
+    color: #505050;
+    margin-top: 50px;
+}
+
+.amenities-list ul li{
+    margin-left: 80px;
+    line-height: 1.6;
+    margin-right: 20px;
+}
+.project-highlights{
+    margin-top: 50px;
+}
+
+.project-highlights ul li{
+    margin-left: 80px;
+    line-height: 1.6;
+    margin-right: 20px;
+}
+
+.offer-detail{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.offer-detail h2{
+    margin-bottom: 10px;
+}
+
+.offer,.ivr,.maha-rera{
+    margin-top: 40px;
+}
+
+.view-btn{
+    margin-top:20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.view-btn button{
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid black;
+    font-weight: 700;
+    width: 200px;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .logo{
+        margin-left: 40px;
+    }
+
+    .navbar{
+        display:block;
+        position: absolute;
+        right: 60px;
+        top: 25px;
+    }
+
+     .navbar nav ul li {
+        list-style-type: none;
+        display: inline;
+        padding-left:20px;
+    }
+
+     .navbar nav ul li a{
+        text-decoration: none;
+        color: #fafafa;
+        font-size: 20px;
+        padding-bottom: 5px;
+        transition: 0.6s;
+    }
+
+    a:hover{
+        border-bottom: 2px solid white;
+        font-weight: 700;
+    }
+
+    .title {
+        margin-top: 150px;
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 200px;
+    }
+
+    .title p{
+        font-size: 20px;
+    }
+
+   .overview,.location{
+       display: flex;
+      justify-content: center; 
+      align-items: center;
+   }
+
+   .overview-img,.overview-text{
+       width: calc(100%/2);
+   }
+
+    .overview-img img{
+       width: 60%;
+       float: right;
+       margin-right: 40px;
+   }
+
+   .overview-text{
+       padding-right: 200px;
+       text-align: left;
+   }
+
+   .overview-text h2{
+     text-align: left;
+   }
+
+   .location-img,.location-text{
+       width: calc(100%/2);
+   }
+
+   .location-img img{
+       width: 60%;
+       margin-left: 30px;
+   }
+
+   .location-text{
+       padding-left: 200px;
+   }
+
+   .location-text h2{
+       text-align: left;
+   }
+
+   .footer-flex{
+       display: flex;
+       align-items: center;
+   }
+
+   .flex-content{
+     width: calc(100%/3);
+   }
+
+   .project-highlights,.offer-detail{
+       margin-top: 0;
+   }
+
+   .amenities-list{
+       transform: translateY(80px);
+   }
+
+   .amenities-list ul li{
+       margin-left: 150px;
+   }
+
+   .project-highlights ul li{
+       margin-left:100px;
+   }
+
+    .view-btn{
+     margin-top: 100px;
+    }
+
+    button:hover{
+        background-color: #505050;
+        color: white;
+        cursor: pointer;
+    }
+}
