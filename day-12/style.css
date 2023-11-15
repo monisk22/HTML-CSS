@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+h2{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+p{
+    line-height: 1.6;
+    color: #1a120f;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    padding: 10px 30px;
+    background: none;
+    background-color:white;
+    border: none;
+    color:black;
+    font-weight: 600;
+}
+
+.header{
+    background-color: #efebe0;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.logo{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #b09a8b;
+}
+
+.navbar{
+    display:none;
+}
+
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.work-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header-img{
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.description{
+    width: 100%;
+    background-color: #18171c;
+    color: #e1e0e4;
+    margin-bottom: 0;
+}
+
+.description h2{
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.description p{
+    color:#e1e0e4; 
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.input-detail{
+    display: none;
+}
+
+.overview{
+    background-color:#dfcab9;
+    border-bottom: 2px solid #715a42;
+}
+
+.overview h2{
+ text-align: center;
+}
+
+.overview-text{
+    text-align:justify;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.more-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gallery h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #b58266;
+}
+
+.gallery-itom{
+    margin-bottom: 50px;
+}
+
+.gallery-img{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.gallery-img img{
+    height: 50vh;
+}
+
+.gallery-number{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.digit{
+    font-size: 40px;
+    font-family: ui-sans-serif;
+}
+.desktop{
+    display: none;
+}
+
+.location{
+    background-color: #efebe0;
+    border-bottom: 1px solid #715a42;
+    border-top: 1px solid #715a42;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.location-detail{
+    padding: 20px;
+}
+
+.location-btn{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.location-img{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.location-img img{
+    padding: 10px;
+    border: 1px solid #715a42;
+}
+
+.project-highlights{
+    background-color: #b37e5c;
+    text-align: justify;
+    border-bottom: 1px solid #715a42;
+    border-top: 1px solid #715a42;
+}
+
+.project-highlights h2{
+    color: #fdfaf7;
+    text-align: center;
+    padding-top:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.text{
+    padding: 20px;
+}
+
+.images{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.images .gallery-list{
+    padding-bottom: 10px;
+}
+
+.gallery-2 h2{
+    text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+     
+    button{
+        padding: 20px 50px;
+    }
+    .logo{
+        visibility: hidden;
+    }
+
+    .navbar{
+        display: block;
+        position: absolute;
+        right: 200px;
+        top: 20px;
+    }
+
+    .navbar ul li{
+        display: inline;
+        padding-left: 30px;
+    }
+
+    .navbar ul li span{
+        font-size: 30px;
+        color:  #607d8b;
+    }
+
+    .navbar ul li a{
+        text-decoration: none;
+        color: #86a18a;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        transition: 0.4s;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid #86a18a; 
+    }
+
+    .header-flex{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-content{
+        flex-basis: 40%;
+    }
+
+    .title{
+        text-align: left;
+        z-index: 1;
+        line-height: 1.4;
+        position: absolute;
+        font-size:30px;
+        right: 610px;
+        left: 220px;
+        top: 150px;
+    }
+
+    .work-btn{
+        position: absolute;
+        top: 400px;
+        left: 250px;
+    }
+
+    .header-img img{
+        position: relative;
+        right: 170px;
+        width: 120%;
+    }
+
+    .gallery-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gallery-itom{
+        flex-basis: 25%;
+    }
+
+    .overview-flex{
+        display: flex;
+    }
+
+    .overview-flex-content{
+       flex-basis: 50%;
+    }
+   
+    .overview-img{
+        width: 40%;
+        margin-left: 240px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .overview-text{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 240px;
+        transform: translateX(-150px);
+        text-align: left;
+    }
+
+    .overview h2{
+        text-align: left;
+        font-size: 40px;
+    }
+    
+    .more-btn{
+        text-align: left;
+    }
+
+    .more-btn button{
+        padding: 20px 50px;
+    }
+    
+    .location-flex{
+        display: flex;
+    }
+
+    .location-flex-content{
+        flex-basis: 50%;
+    }
+
+    .location-img{
+        width: 60%;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+
+    .location-detail{
+        margin-left: 100px;
+    }
+
+     .location-detail h2{
+        font-size: 40px;
+    }
+
+    .location-btn{
+        margin-left:120px;
+    }
+
+    .project-highlights{
+        height: 60vh;
+    }
+
+    .project-highlights h2{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .project-highlights p{
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .description{
+        height: 50vh;
+    }
+
+    .description h2{
+        padding-top: 100px;
+        margin-bottom: 0;
+        margin-left: 200px;
+        font-family: cursive;
+    }
+
+    .description-text{
+        margin-left: 500px;
+    }
+
+     .description-text p{
+      padding: 0;
+      margin-top: -50px;
+    }
+
+    .input-detail{
+        display: block;
+    }
+
+    .input-detail{
+        margin-left: 500px;
+        margin-top: 30px;
+    }
+    
+    input{
+        padding: 20px 30px;
+        margin-left:5px ;
+    }
+    
+    .input-detail button{
+        padding: 20px 30px;
+        background-color:#b37e5c;
+        color: white;
+        width: 250px;
+        height: 60px;
+    }
+
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .gallery-list{
+        flex-basis: 16%;
+    }
+    
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+    }
+}
+
+
