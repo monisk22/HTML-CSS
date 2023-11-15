@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    background-color:rgb(0 0 0 / 75%);
+    color: white;
+}
+h2{
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h2 span{
+    color: #daa520e3;
+}
+
+p{
+    line-height: 1.6rem;
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("background\ .jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar{
+    visibility: hidden;
+}
+
+.header .logo{
+    color:white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header .logo span{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+.title{
+  color: white;
+
+}
+
+.title h1{
+    margin-left: 20px;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+
+.title p{
+    margin-left: 20px; 
+    margin-top: 5px;
+}
+
+.get-start{
+   margin-left: 20px;
+    margin-top: 10px;
+}
+
+.get-start button{
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.overview p{
+    margin-left: 15px;
+}
+
+.project-highlights{
+    margin-top: 120px;
+}
+
+.project-highlights ul li{
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.dark-img{
+    margin-top: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+ 
+}
+
+.amenities-list{
+ background-image:linear-gradient(rgb(0 0 0 / 65%),rgb(0 0 0 / 53%)),url("background\ \(4\).jpg");
+ background-size: cover;
+ background-position: center;
+height: 50vh;
+margin-bottom: 10px;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+.amenities-itom{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.background-2{
+    background-image: linear-gradient(rgb(0 0 0 / 65%),rgb(0 0 0 / 53%)),url("background\ \(2\).jpg");
+
+}
+
+.background-3{
+    background-image: linear-gradient(rgb(0 0 0 / 65%),rgb(0 0 0 / 53%)),url("background\ \(3\).jpg");
+}
+
+.background-4{
+    background-image: linear-gradient(rgb(0 0 0 / 65%),rgb(0 0 0 / 53%)),url("background\ \(5\).jpg");
+}
+
+.location p{
+    margin-left: 15px;
+}
+
+.location-img{
+    margin-top: 90px;
+    margin-left: 3%;
+    margin-right: 3%; 
+}
+
+@media screen and (min-width:1024px) {
+     h2{
+         font-size: 30px;
+         letter-spacing: 2px;
+     }
+    .title{
+        margin-top: 10%;
+     margin-left: 40%;
+     margin-right: 10%;
+    }
+   .title h1{
+        font-size: 50px;
+        padding-bottom: 10px;
+        
+    }
+
+     .navbar{
+       visibility: visible;
+    }
+
+    .navbar ul{
+        float: right;
+        margin-right: 200px;
+    }
+
+    .navbar ul li{
+        display: inline;
+        padding-left: 20px;
+    }
+
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        transition: 0.4s;
+        padding-bottom: 5px;
+    } 
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid white;
+    }
+
+    .overview-flex{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5%;
+        margin-left:5%;
+    }
+
+    .flex-content{
+        flex-basis: 30%;
+        margin-right: 30px;
+    }
+
+    .dark-img{
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right:0
+    }
+    
+    .overview h2{
+        margin-bottom: 40px;
+    }
+
+    .project-highlights{
+        margin-top: -10px;
+    }
+
+    .project-highlights ul{
+        margin-left: 70px;
+    }
+
+    .project-highlights ul li{
+        padding-bottom: 10px;
+    }
+
+    .amenities-flex{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+    .amenities-list{        
+        flex-basis: 25%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100vh;
+    }
+
+    .location-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .location-content{
+        flex-basis: 30%;
+        margin-right: 30px;
+    }
+
+    .location-img{
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right:0
+    }
+    
+}
