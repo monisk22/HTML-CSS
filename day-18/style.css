@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    color:rgba(0, 0, 0, 0.87);  
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #cb9d7c;
+    color:rgba(0, 0, 0, 0.747); 
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}
+
+h2{
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p{
+    line-height: 1.7;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo{
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.navbar{
+    display: none;
+}
+
+.title-background{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title{
+    margin-top: 15px;
+    padding-top: 150px;
+    padding-left: 40px;
+}
+
+.title-btn{
+    margin-top: 20px;
+}
+
+.overview-btn{
+    margin-top: 20px;
+}
+
+.banner{
+    background-color:#fffaf4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.gallery{
+    margin-top: 30px;
+}
+
+.banner-img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.image-text{
+    margin-top: 20px;
+}
+
+.shop-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.overview{
+    background-color: #ebdece;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.overview-img{
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+.overview-text{
+    margin-top: 30px;
+}
+
+.overview-text p{
+    text-align: justify;
+}
+
+.overview-btn{
+    text-align: center;
+}
+
+.project-highlight{
+    background-color: #4c5d39;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fffaf4;
+}
+
+.project-highligh-text ul li{
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.location{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.location-text p{
+    text-align: justify;
+    
+}
+
+.location-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.location-img{
+    box-shadow: 3px 3px 6px 5px #ccc;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width:1024px) {
+
+    .navbar{
+        display: block;
+        position:absolute;
+        left: 15px;
+        top: 15px;
+    }
+
+    .navbar nav ul li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 10px;
+    }
+
+    .navbar nav ul li a{
+        text-decoration: none;
+        color: black;
+        transition: 0.4s;
+        padding-bottom: 5px;
+    }
+
+    .navbar nav ul li a:hover{
+        border-bottom: 2px solid black;
+    }
+
+    .title{
+     width: 600px;
+     padding-top: 200px;
+    }
+
+    .title h1{
+        font-size: 40px;
+    }
+
+    .banner-title h2{
+        margin:0 auto;
+        width: 700px;
+        margin-bottom: 20px;
+    }
+
+    .banner-title p{
+        margin: 0 auto;
+        display: block;
+        width: 600px;
+    }
+
+    .gallery-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery{
+        flex-basis: 25%;
+    }
+
+    .overview-flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .overview-content{
+        width: calc(100%/2);
+    }
+
+    .overview-img{
+        width: 400px;
+        margin-left: 200px;
+    }
+
+    .overview-img img{
+        height: 60vh;
+    }
+
+    .overview-text{
+        width: 600px;
+    }
+
+    .overview-text h2,.overview-btn{
+        text-align: left;
+    }
+
+    .overview-text p{
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .location-flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .location-content{
+        width: calc(100%/2);
+    }
+
+    .location-img{
+        width: 400px;
+        margin-left: 200px;
+    }
+
+    .location-img img{
+        height: 60vh;
+    }
+
+    .location-text{
+        width: 600px;
+        margin-left:200px;
+    }
+
+    .location-text h2,.location-btn{
+        text-align: left;
+    }
+
+    .location-text p{
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
